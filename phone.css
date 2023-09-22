@@ -1,0 +1,32 @@
+#navbar{
+    height: 90px;
+    overflow: hidden;
+}
+#navbar .buttons{
+    display: flex;
+    flex-direction: row;
+}
+#section #welcome h1 {
+    font-size: 22px;
+    margin: 10px 0 10px;
+}
+#section #welcome {
+    font-size: 12px;
+    margin: 10px 10px;
+    padding: 5px;
+    height: 160px;
+}
+/*menu*/
+#section::before {
+    height: 270px;
+    width: 100%;
+    background-size: cover;
+}
+/*boxes*/
+#container {
+    top: 270px;
+}
+#container .boxes .box{
+    width: 70vw;
+    height: 50vh;
+}
